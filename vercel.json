@@ -13,6 +13,10 @@
     {
       "src": "/(.*)",
       "dest": "src/server.ts"
+    },
+    {
+      "src": "/swagger.json",
+      "dest": "src/server.ts"
     }
   ]
 }
